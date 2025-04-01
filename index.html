@@ -1,2 +1,304 @@
-hello world 
-I am Jaswanthlal
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jaswanthlal Thandul</title>
+    <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="responsive.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+</head>
+<body>
+    <!-- Horizontal Navigation Bar -->
+    <nav class="header">
+        <div class="logo-container">
+            <img src="/images/logo.png" alt="Logo" class="logo" onclick="scrollTop()" />
+        </div>
+        <div class="hamb-menu">
+            <div class="line">
+                <span>|</span>
+                <span>|</span>
+                <span>|</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="#welcome" onclick="scrollTop()" class="nav-link">Home</a></li>
+            <li><a href="#education" class="nav-link">Experience</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a onclick="location.href='resume.html'" class="nav-link">Resume</a></li>
+            <li class="dropdown">
+                <span class="dropdown-toggle">Other</span>
+                <ul class="dropdown-menu">
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                    <li><a href="#technologies" class="nav-link">Technologies</a></li>
+                    <li><a href="#contact" class="nav-link">Contact Now</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Custom Popup -->
+    <!-- <div class="popup-container" id="popup">
+        <div class="popup-box">
+            <p>Data not available, check back later.</p>
+            <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
+    </div> -->
+
+    <!-- Zoom Popup -->
+    <!-- <div class="popup-container" id="zpopup">
+        <div class="popup-box">
+            <p>This View is not supported</p>
+            <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
+    </div> -->
+
+    
+    <!-- Main Content -->
+    <main class="content">
+        <section id="welcome" class="wlc">
+            <div class="wlc-blocx">
+                <div class="wlc-container">
+                    <div class="speech-bubble">Hello World. It's me</div>
+                    <h1>Jaswanthlal Thandul</h1>
+                    <p>Aspiring <span class="red">Software Engineer</span> <br> and CyberSecurity <span class="blue">Enthusiast</span></p>
+                    <button class="btn" onclick="location.href='#contact'">Say Hello!</button>
+                </div>
+                <div class="giffy">
+                    <img src="/images/AB Leftt.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <div class="scroll-container">
+            <ul class="scroll-content">
+                <img src="/images/scroll/Tableau-Logo.png" alt="">
+                <img src="/images/scroll/Python-Logo-700x394.png" alt="">
+                <img src="/images/scroll/AWS.png" alt="">
+                <img src="/images/scroll/Excel.png" alt="">
+                <img src="/images/scroll/GCP.png" alt="">
+                <img src="/images/scroll/MS_SQL.png" alt="">
+                <img src="/images/scroll/Google_Analytics.png" alt="">
+                <img src="/images/scroll/MySQL.png" alt="">
+                <img src="/images/scroll/Office.png" alt="">
+                <img src="/images/scroll/Power_BI_(4).png" alt="">
+                <img src="/images/scroll/Tableau-Logo.png" alt="">
+                <img src="/images/scroll/Python-Logo-700x394.png" alt="">
+                <img src="/images/scroll/AWS.png" alt="">
+                <img src="/images/scroll/Excel.png" alt="">
+            </ul>
+        </div>        
+        
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="centre-it">
+                <div class="ab-container">
+                    <div class="ab-left">
+                        <img src="/images/Yuvraj.jpg" alt="Profile Picture" />
+                    </div>
+                    <div class="ab-right">
+                        <h2>About Myself</h2>
+                        <p>Hi, I'm Jaswanthlal! I am passionate about creating Softwares using AI, and cybersecurity to solve real-world problems. With experience in Software Development, AI-driven development, and cybersecurity, I enjoy working on projects that integrate technology with innovation.<br><br>I have a strong foundation in Python, SQL, Flask, WebRTC, and IoT, with hands-on experience in real-time translation, AI-powered automation, and ethical hacking. When I'm not coding, I’m exploring emerging tech trends, building smart systems, and sharpening my cybersecurity skills. <br><br>Let’s connect and build something impactful! 🚀</p>
+                        <button class="ab-button" onclick="location.href='#education'">More Info</button>
+                        <button class="ab-button" onclick="location.href='resume.html'">Download Resume</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>Education and Experience</h2>
+            <p>Here's a glimpse of my professional and academic journey.</p>
+            <div class="cent-container">
+                <div class="ee-container">
+                    <div class="job-box">
+                        <div class="job-top">
+                            <div class="top-left">
+                                <h4>Softwre Developer Intern</h4>
+                                <h5>BlackShift Technologies - Banglore, India</h5>
+                            </div>
+                            <div class="top-right">
+                                <button class="ee-button">Aug'24 to Feb'25</button>
+                            </div>
+                        </div>
+                        <p>Improved the Servicce Records by analyzing the service database and helped the company manage the Data Securely.</p>
+                    </div>
+                    <div class="job-box">
+                        <div class="job-top">
+                            <div class="top-left">
+                                <h4>Electronics Engineering</h4>
+                                <h5>University of Mumbai - Navi Mumbai, India</h5>
+                            </div>
+                            <div class="top-right">
+                                <button class="ee-button">Jul'21 to May'25</button>
+                            </div>
+                        </div>
+                        <p>I graduated with an undergraduate degree in electronics and telecommunication engineering. Learned about cutting-edge communication technologies and engineering techniques.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="proj-top">
+                <h2>Projects</h2>
+                <p>Here's a glimpse of my academic as well as professional projects.</p>
+            </div>
+            <div class="mv-centre">
+                <div class="proj-container">
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="/images/project/smartHome.jpeg"/>
+                        </div>
+                        <div class="card-content">
+                            <h3>Smart Home Automation</h3>
+                            <p>An IoT-based system that allows remote control of multiple devices using ESP32, Bluetooth (HC-05), and Blynk IoT. The system ensures uninterrupted operation with both online and offline control.</p>
+                            <a onclick="showPopup()" class="project-button">Github</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="/images/project/smartSwitch.jpg"/>
+                        </div>
+                        <div class="card-content">
+                            <h3>Smart Switch Board</h3>
+                            <p>An IoT-based smart switchboard designed to replace traditional switchboards. It features remote control, automation, and multi-board management through a single dashboard.</p>
+                            <a onclick="showPopup()" class="project-button">Github</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="/images/project/smartSecurity.jpeg"/>
+                        </div>
+                        <div class="card-content">
+                            <h3>Smart Home Security</h3>
+                            <p>An AI-powered security system integrating OpenCV, ESP32-Cam, and Adafruit. It includes facial recognition, child security features, and a web dashboard for remote monitoring.</p>
+                            <a onclick="showPopup()" class="project-button">Github</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-button">
+                <a href="https://www.github.com/iJaxsu/" target="_blank">
+                    <button class="more-btn">More On Github</button>
+                </a>
+            </div>
+        </section>
+
+
+        <!-- Certificates Section -->
+        <section id="certificates" class="section">
+            <h2>Certificates</h2>
+            <p>Here's a glimpse of my professional Certifications.</p>
+            <div class="mv-centre">
+                <div class="cert-container">
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="/images/certificate/AZ900.jpg"/>
+                        </div>
+                        <div class="card-content">
+                            <h3>Microsoft Azure AZ900 - Koenig Solutions</h3>
+                            <p>Validates cloud computing knowledge and hands-on experience with Microsoft Azure services.</p>
+                            <a href="#" class="cert-button">View Certificate</a>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="image-box">
+                            <img src="/images/certificate/TeleNetwork.jpeg"/>
+                        </div>
+                        <div class="card-content">
+                            <h3>Hands-On Ethical Hacking – TeleNetwork Technologies</h3>
+                            <p>Demonstrates cybersecurity expertise, ethical hacking skills, and penetration testing experience with Kali Linux.</p>
+                            <a href="#" class="cert-button">View Certificate</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="more-button">
+                <a href="https://www.linkedin.com/in/yuvrajsingh-2k4/details/certifications/" target="_blank">
+                    <button class="more-btn">More On Linkedin</button>
+                </a>
+            </div>
+        </section>
+        
+        <!-- Tools and Technologies Section -->
+        <section id="technologies" class="section">
+            <div class="tech-container">
+                <h2>Technologies</h2>
+                <p>Here's a glimpse of the tools and technologies I've worked with.</p>
+                <div class="row-blox">
+                    <div class="carxd1">
+                        <div class="blox-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-code-xml"><path d="m18 16 4-4-4-4"/><path d="m6 8-4 4 4 4"/><path d="m14.5 4-5 16"/></svg>                        <h4>Programming & Libraries</h4>
+                            <p>Python | MySQL | JAVA</p>
+                        </div>
+                    </div>
+                    <div class="carxd2">
+                        <div class="blox-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-settings"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.39a2 2 0 0 0-.73-2.73l-.15-.08a2 2 0 0 1-1-1.74v-.5a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg>
+                            <h4>Development Tools & Platforms                        </h4>
+                            <p>Git | Azure | VS Code</p>
+                        </div>
+                    </div>
+                    <div class="carxd3"> 
+                        <div class="blox-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-cpu"><rect width="16" height="16" x="4" y="4" rx="2"/><rect width="6" height="6" x="9" y="9" rx="1"/><path d="M15 2v2"/><path d="M15 20v2"/><path d="M2 15h2"/><path d="M2 9h2"/><path d="M20 15h2"/><path d="M20 9h2"/><path d="M9 2v2"/><path d="M9 20v2"/></svg>
+                            <h4>Embedded Systems & Hardware</h4>
+                            <p>Arduino | ESP32 | Linux</p>
+                        </div>
+                    </div>
+                    <div class="carxd4">
+                        <div class="blox-content">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="white" stroke-width="1" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-chart-column-increasing"><path d="M13 17V9"/><path d="M18 17V5"/><path d="M3 3v16a2 2 0 0 0 2 2h16"/><path d="M8 17v-3"/></svg>
+                            <h4>Cloud & Data Visualization</h4>
+                            <p>AWS | Power BI | Flask</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="blank-sp"><P>-</P></div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2>Contact Me</h2>
+            <p>Feel free to reach out to me for any queries or collaborations.</p>
+                <div class="mv-centre">
+                    <div class="tri-col">
+                        <div class="block-one">
+                            <h4>+91 81043 89983</h4>
+                        </div>
+                        <div class="block-two">
+                            <h4>jawanthlalt@gmail.com</h4>
+                        </div>
+                        <div class="block-three">
+                            <h4>jaswanthlalthandul.me</h4>
+                        </div>
+                    </div>
+                </div>
+            <button class="mail-btn" onclick="location.href='mailto:jawanthlalt@gmail.com'">Say Hi!</button>
+        </section>
+
+        <section id="footer" class="section">
+            <h3>Follow Me</h3>
+            <p>Coming Soon</p>
+            <h4>©2025 Yuvraj Singh. Made with ♡</h4>
+        </section>
+        <div id="back-top">
+            <a title="Go to Top" href="#">
+                <i class="lnr lnr-arrow-up"></i>
+            </a>
+        </div>
+    </main>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="script.js"></script>
+</body>
+</html>
